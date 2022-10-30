@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO 2</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+
+    <div class = 'left'>
+        <img src = 'logo.svg'>
+        <a style = 'color: white;'>Complete your purchase</a>
+
+    <div class = 'check'>
+        <div id="container">
+        <div class = 'total'>
+            
+            
+            <table>
+            <tr>
+                <td colspan="2"><a class = 'productName'>Golden Penny Spread</a></td>
+                <td><a class = 'productDate'>AUG 5</a></td>
+            </tr>
+            <tr>
+                <td><a class = 'productCode'>SN43500</a></td>
+                <td><a class = 'productTime'>12:50 PM</a></td>
+                <td><a class = 'productDate'>$14.79</a></td>
+            </tr>
+            
+            </table>
+            
+        </div>  
+
+        <div class = 'total'>
+            <table>
+            <tr>
+                <td colspan="2"><a class = 'productName'>Orange Blossom Honey</a></td>
+                <td><a class = 'productDate'>AUG 5</a></td>
+            </tr>
+            <tr>
+                <td><a class = 'productCode'>SN76500</a></td>
+                <td><a class = 'productTime'>12:50 PM</a></td>
+                <td><a class = 'productDate'>$20.21</a></td>
+            </tr>
+            
+            </table>
+        </div>
+
+        <div class = 'total'>
+            <table>
+            <tr>
+                <td colspan="2"><a class = 'productName'>Golden Penny Spread</a></td>
+                <td><a class = 'productDate'>AUG 5</a></td>
+            </tr>
+            <tr>
+                <td><a class = 'productCode'>SN90500</a></td>
+                <td><a class = 'productTime'>12:50 PM</a></td>
+                <td><a class = 'productDate'>$15.00</a></td>
+            </tr>
+            
+            </table>
+        </div>
+
+        <div class = 'totalBig'>
+            
+            <table class = 'table2'>
+            <tr>
+                <td colspan="2"><a class = 'subtotal'>Subtotal</a></td>
+                <td><a class = 'productDate'>$50.00</a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a class = 'subtotal'>Taxes & Fees</a></td>
+                <td><a class = 'productDate'>$10.00</a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a class = 'subtotal'>Promo Code - 1E5344505</a></td>
+                <td><a class = 'productDate'>-30%</a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a class = 'allTotal'>Total</a></td>
+                <td><a class = 'productDate' style = 'font-size: 20px;'>$42.00</a></td>
+            </tr>
+            
+            </table>
+
+        </div>
+
+        <button class = 'previous'><a style = 'font-size: 15px;margin: 0 auto;font-weight: bold;'>Previos Page</a></button>
+        </div>
+
+        
+    </div>
+    </div>
+
+    <div class = 'right'>
+
+        <div class = 'signup'>
+        <div class = 'form'>
+        <form>
+            <button >Pay with PayPal</button>
+            <a style = 'font-size: 17px; opacity: 0.5;'>Or pay with card</a>
+            <label style = 'font-size: 13px;display: block;'>Email</label>
+            <input>
+
+            <label style = 'font-size: 13px;display: block;'>Country or region</label>
+            <input type="text" id="cardNumber" placeholder="1234 1234 1234 1234">
+            <br>
+            <input id = 'cardDate' placeholder="MM/YY">
+            <input id = 'cardCVV' placeholder="CVC">
+
+            <label style = 'font-size: 13px;display: block;'>Name on card</label>
+            <input>
+
+            <label style = 'font-size: 13px;display: block;'>Country or region</label>
+            <input style = 'font-size: 13px;display: block;margin: 0px 0px 0px 0px;' list = 'countries'type="text" id="country" placeholder="Ukraine">
+            <datalist id="countries">
+                <option value="Ukraine">
+                <option value="United States">
+                <option value="Germany">
+                <option value="England">
+                <option value="Italy">
+            </datalist>
+            <input id = 'zip' placeholder="ZIP">
+            
+            <button type = 'submit' id = 'signup'>Pay $42.00</button>
+        </form>
+    </div>
+
+        </div>
+    </div>
+</body>
+</html>
